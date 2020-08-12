@@ -10,6 +10,7 @@ import SplashScreen from '../Screens/Splash';
 import LoginScreen from '../Screens/Login';
 
 export type RootStackParamList = {
+  Splash: undefined;
   Login: undefined;
 };
 
