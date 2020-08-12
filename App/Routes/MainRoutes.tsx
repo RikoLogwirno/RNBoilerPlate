@@ -9,7 +9,11 @@ import store from '../redux/store';
 import SplashScreen from '../Screens/Splash';
 import LoginScreen from '../Screens/Login';
 
-const Stack = createStackNavigator();
+export type RootStackParamList = {
+  Login: undefined;
+};
+
+const Stack = createStackNavigator<RootStackParamList>();
 
 export interface Props {}
 
